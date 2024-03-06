@@ -17,7 +17,7 @@ else:
     print('TensorFlow 시험환경을 구성중입니다. 잠시만 기다려 주세요.\n(설치는 약 1~5분 정도 소요 됩니다)')
     print('==='*20)
 
-subprocess.run(['pip', 'install', 'tensorflow==2.9.0'])
+subprocess.run(['pip', 'install', 'tensorflow==2.13.0'])
 subprocess.run(['pip', 'install', 'tensorflow-datasets==4.6.0'])
 subprocess.run(['pip', 'install', 'numpy==1.22.4'])
 subprocess.run(['pip', 'install', 'Pillow==9.1.1'])
